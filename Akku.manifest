@@ -1,0 +1,9 @@
+#!r6rs ; -*- mode: scheme; coding: utf-8 -*-
+(import (akku format manifest))
+
+(akku-package ("zipweb" "0.0.0-alpha.0")
+  (synopsis "Serve a website straight out of a zip file.")
+  (authors "John Greco <john.luke.greco@gmail.com>")
+  (license "NOASSERTION")
+  (depends ("compression" "^0.1.1"))
+)
